@@ -6,14 +6,19 @@
 </head>
 <body>
 <script>
-  let value = +prompt('Type a number', 0);
-  switch (value){
-    case 0:
-      alert(0);
-      break;
-    default:
-        alert(1);
-  }
+    let value = prompt();
+    let a = value > 0;
+    let b = value < 0;
+    switch (true) {
+        case a:
+            alert("duong");
+            break;
+        case b:
+            alert("am");
+            break;
+        default:
+            alert("0")
+    }
 </script>
 </body>
 </html>
